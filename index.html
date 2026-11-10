@@ -3,30 +3,104 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#101a2d">
-  <meta name="description" content="Présentation accessible du cadre méthodologique KEO-UDVI-EBP : principes, limites, ressources et transparence sur les capacités." />
-  <title>KEO — Un cadre pour des réponses plus claires</title>
-  <link rel="icon" href="assets/keo-emblem.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/styles.css">
+  <meta name="theme-color" content="#f9f8f6">
+  <meta name="description" content="Présentation accessible du cadre méthodologique KEO-UDVI-EBP : principes, fonctionnement et limites." />
+  <title>KEO-UDVI-EBP | Cadre méthodologique</title>
+  <link rel="icon" href="./assets/keo-emblem.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <a class="skip-link" href="#contenu">Aller au contenu</a>
-  <header class="topbar">
-    <a class="brand" href="#accueil" aria-label="KEO, accueil"><img src="assets/keo-emblem.svg" alt="" width="38" height="38"><span>KEO <small>UDVI · EBP</small></span></a>
-    <nav aria-label="Navigation principale"><a href="#principes">Principes</a><a href="#fonctionnement">Fonctionnement</a><a href="#limites">Limites</a><a href="#ressources">Ressources</a></nav>
-    <a class="nav-cta" href="https://github.com/av974/Keo-udvi-ebp/blob/main/keo-udvi-ebp.md">Lire le document ↗</a>
+  <a href="#main" class="skip-link">Aller au contenu</a>
+
+  <header class="site-header" role="banner">
+    <a class="logo-area" href="#accueil" aria-label="KEO, accueil">
+      <img src="./assets/keo-emblem.svg" alt="" width="34" height="34" decoding="async">
+      <span>KEO <small>UDVI · EBP</small></span>
+    </a>
+    <nav class="nav-links" aria-label="Navigation principale">
+      <a href="#principes">Principes</a>
+      <a href="#fonctionnement">Fonctionnement</a>
+      <a href="#limites">Limites</a>
+      <a href="#ressources">Ressources</a>
+    </nav>
+    <a class="header-document" href="https://github.com/av974/Keo-udvi-ebp/blob/main/keo-udvi-ebp.md">Lire le document <span aria-hidden="true">↗</span></a>
   </header>
-  <main id="contenu">
-    <section class="hero" id="accueil">
-      <div class="hero-copy"><p class="eyebrow"><span class="status-dot"></span> Cadre méthodologique · version documentaire V15.7.0</p><h1>Des réponses plus <em>claires.</em><br>Des limites plus <em>visibles.</em></h1><p class="lead">KEO-UDVI-EBP est un cadre de prompts qui aide à structurer les réponses, expliciter les incertitudes et garder la personne au centre.</p><div class="hero-actions"><a class="button button-primary" href="#principes">Découvrir le cadre <span aria-hidden="true">↓</span></a><a class="button button-quiet" href="media/">Voir l’animation <span aria-hidden="true">↗</span></a></div><p class="hero-note">Un cadre de travail, pas une certification ni un service d’urgence.</p></div>
-      <div class="hero-art" aria-label="Illustration abstraite du cadre KEO"><div class="art-glow"></div><img src="assets/keo-emblem.svg" alt="Anneaux interconnectés autour d’un centre lumineux, symbole d’écoute, de vérification et de synthèse" width="440" height="440"><div class="orbit-label label-one">ÉCOUTER</div><div class="orbit-label label-two">VÉRIFIER</div><div class="orbit-label label-three">SYNTHÉTISER</div></div>
+
+  <main id="main" class="container">
+    <section class="hero" id="accueil" aria-labelledby="page-title">
+      <div class="badge"><span class="status-dot" aria-hidden="true"></span> Cadre méthodologique · V15.7.0</div>
+      <h1 id="page-title">Des réponses plus <em>claires</em>.<br>Des limites plus <em>visibles</em>.</h1>
+      <p class="hero-intro">KEO-UDVI-EBP est un cadre de prompts qui aide à structurer les réponses, expliciter les incertitudes et garder la personne au centre.</p>
+      <div class="hero-actions">
+        <a href="#principes" class="btn">Découvrir le cadre <span aria-hidden="true">↓</span></a>
+        <a href="#animation" class="btn btn-secondary">Voir l’animation <span aria-hidden="true">↗</span></a>
+      </div>
+      <p class="note">Un cadre de travail, pas une certification ni un service d’urgence.</p>
     </section>
-    <section class="ribbon" aria-label="Principes clés"><span>Personne d’abord</span><i>✳</i><span>Preuves et incertitudes</span><i>✳</i><span>Outils réellement disponibles</span><i>✳</i><span>Choix humain préservé</span></section>
-    <section class="section intro" id="principes"><div class="section-kicker">01 / L’intention</div><div class="section-content"><h2>Une méthode pour mieux répondre.<br><em>Pas pour prétendre tout savoir.</em></h2><p>Le document KEO décrit une démarche adaptable : comprendre la demande, repérer les enjeux, utiliser les outils réellement accessibles, produire une réponse utile puis en vérifier les limites.</p><div class="principle-grid"><article class="principle-card"><span class="card-index">A</span><h3>Respecter</h3><p>Dignité, autonomie, consentement et accessibilité guident la manière de répondre.</p></article><article class="principle-card"><span class="card-index">B</span><h3>Distinguer</h3><p>Un fait observé, une interprétation, une hypothèse et une information inconnue ne sont pas interchangeables.</p></article><article class="principle-card"><span class="card-index">C</span><h3>Rendre visible</h3><p>Un outil est déclaré utilisé seulement si son appel et son résultat sont observables.</p></article></div></div></section>
-    <section class="process-section" id="fonctionnement"><div class="section-kicker">02 / Le fil de réponse</div><div class="process-heading"><h2>Du besoin au livrable,<br><em>avec des garde-fous.</em></h2><p>Le moteur décrit dans le document suit un parcours simple, réévalué à chaque demande.</p></div><div class="steps" aria-label="Étapes méthodologiques"><article><span>01</span><h3>Comprendre</h3><p>Demande, contexte, destinataire et format souhaité.</p></article><article><span>02</span><h3>Qualifier</h3><p>Enjeux, informations manquantes et niveau de prudence utile.</p></article><article><span>03</span><h3>Produire</h3><p>Réponse adaptée, sans inventer de faits ni d’actions externes.</p></article><article><span>04</span><h3>Contrôler</h3><p>Cohérence, sécurité, provenance et limites décisives.</p></article></div></section>
-    <section class="section split" id="limites"><div class="section-kicker">03 / À garder en tête</div><div class="section-content limit-panel"><div><p class="eyebrow">Transparence avant tout</p><h2>Un prompt ne crée pas<br>de capacités cachées.</h2><p>KEO ne crée ni mémoire persistante, ni surveillance, ni second modèle, ni connexion à des services externes. Le cadre s’applique uniquement dans le contexte où son texte est effectivement fourni.</p></div><ul class="limit-list"><li><span>01</span><div><strong>Pas un professionnel de santé</strong><small>Information générale seulement ; pas de diagnostic ni de prescription.</small></div></li><li><span>02</span><div><strong>Pas une validation indépendante</strong><small>Les déclarations du document sur des revues ou tests ne sont pas vérifiées par ce site.</small></div></li><li><span>03</span><div><strong>Pas une affiliation établie ici</strong><small>Les noms d’organisations du document ne signifient pas leur approbation de cette page.</small></div></li><li><span>04</span><div><strong>Pas un service d’urgence</strong><small>En cas de danger immédiat, contactez les secours de votre territoire.</small></div></li></ul></div></section>
-    <section class="resource-band" id="ressources"><div class="resource-symbol"><img src="assets/keo-emblem.svg" alt="" width="100" height="100"></div><div><p class="eyebrow">Explorer la source</p><h2>Le document complet,<br>sans raccourci.</h2><p>Consultez le cadre canonique et ses sections pour retrouver les détails, les routines et les conventions documentaires.</p></div><a class="button button-light" href="https://github.com/av974/Keo-udvi-ebp/blob/main/keo-udvi-ebp.md">Ouvrir sur GitHub ↗</a></section>
+
+    <section class="visual-card" aria-label="Illustration KEO">
+      <img src="./assets/keo-emblem.svg" alt="Trois anneaux entrelacés autour d’un centre lumineux, illustration des repères KEO." width="300" height="300" decoding="async">
+      <p class="animation-caption">ÉCOUTER <span aria-hidden="true">·</span> VÉRIFIER <span aria-hidden="true">·</span> SYNTHÉTISER</p>
+    </section>
+
+    <section id="principes" class="content-section" data-keo-section="§1" aria-labelledby="principes-title">
+      <p class="section-label">01 / L’intention</p>
+      <h2 id="principes-title">Une méthode pour mieux répondre.<br><em>Pas pour prétendre tout savoir.</em></h2>
+      <p class="section-intro">Le document KEO décrit une démarche adaptable : comprendre la demande, repérer les enjeux, utiliser les outils réellement accessibles, produire une réponse utile puis en vérifier les limites.</p>
+      <div class="principle-grid">
+        <article class="principle-card"><span class="card-index">A</span><h3>Respecter</h3><p>Dignité, autonomie, consentement et accessibilité guident la manière de répondre.</p></article>
+        <article class="principle-card"><span class="card-index">B</span><h3>Distinguer</h3><p>Un fait observé, une interprétation, une hypothèse et une information inconnue ne sont pas interchangeables.</p></article>
+        <article class="principle-card"><span class="card-index">C</span><h3>Rendre visible</h3><p>Un outil est déclaré utilisé seulement si son appel et son résultat sont observables.</p></article>
+      </div>
+    </section>
+
+    <section id="fonctionnement" class="process-section" data-keo-section="§4" aria-labelledby="process-title">
+      <div class="process-inner">
+        <p class="section-label">02 / Le fil de réponse</p>
+        <h2 id="process-title">Du besoin au livrable,<br><em>avec des garde-fous.</em></h2>
+        <p class="section-intro">Le moteur décrit dans le document suit un parcours simple, réévalué à chaque demande.</p>
+        <ol class="steps">
+          <li><span>01</span><h3>Comprendre</h3><p>Demande, contexte, destinataire et format souhaité.</p></li>
+          <li><span>02</span><h3>Qualifier</h3><p>Enjeux, informations manquantes et niveau de prudence utile.</p></li>
+          <li><span>03</span><h3>Produire</h3><p>Réponse adaptée, sans inventer de faits ni d’actions externes.</p></li>
+          <li><span>04</span><h3>Contrôler</h3><p>Cohérence, sécurité, provenance et limites décisives.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="limites" class="content-section limits-section" data-keo-section="§6" aria-labelledby="limits-title">
+      <p class="section-label">03 / À garder en tête</p>
+      <div class="limit-copy"><p class="eyebrow">Transparence avant tout</p><h2 id="limits-title">Un prompt ne crée pas de capacités cachées.</h2><p>KEO ne crée ni mémoire persistante, ni surveillance, ni second modèle, ni connexion à des services externes. Le cadre s’applique uniquement dans le contexte où son texte est effectivement fourni.</p></div>
+      <ul class="limit-list">
+        <li><strong>Pas un professionnel de santé</strong><span>Ce site ne fournit ni diagnostic ni prescription. Il ne remplace pas un professionnel.</span></li>
+        <li><strong>Pas une validation indépendante</strong><span>Les déclarations du document sur des revues ou tests ne sont pas vérifiées par ce site.</span></li>
+        <li><strong>Non affilié à Balise Psy</strong><span>Cette présentation n’établit ni approbation ni partenariat avec Balise Psy.</span></li>
+      </ul>
+      <p class="emergency-notice"><strong>En cas de danger immédiat, contactez les secours de votre territoire.</strong></p>
+    </section>
+
+    <section id="animation" class="animation-section" aria-labelledby="animation-title">
+      <p class="eyebrow">Illustration animée</p>
+      <h2 id="animation-title">Écouter, vérifier, synthétiser</h2>
+      <figure>
+        <img src="./media/keo-motion.svg" alt="Animation de trois anneaux colorés autour d’un centre lumineux, illustrant les repères écouter, vérifier et synthétiser." width="960" height="540" loading="lazy" decoding="async">
+        <figcaption>Animation vectorielle SVG. Les mouvements s’arrêtent lorsque la préférence de réduction des mouvements est activée. Ce n’est pas un fichier vidéo MP4 ou WebM.</figcaption>
+      </figure>
+    </section>
+
+    <section id="ressources" class="resource-band" data-keo-section="§22" aria-labelledby="resource-title">
+      <p class="eyebrow">Explorer la source</p>
+      <h2 id="resource-title">Le document complet,<br>sans raccourci.</h2>
+      <p>Consultez le cadre canonique et ses sections pour retrouver les détails, les routines et les conventions documentaires.</p>
+      <a class="btn" href="https://github.com/av974/Keo-udvi-ebp/blob/main/keo-udvi-ebp.md">Ouvrir sur GitHub <span aria-hidden="true">↗</span></a>
+    </section>
   </main>
-  <footer><a class="brand footer-brand" href="#accueil"><img src="assets/keo-emblem.svg" alt="" width="30" height="30"><span>KEO <small>UDVI · EBP</small></span></a><p>Présentation éditoriale indépendante du document fourni. Elle ne constitue ni une validation clinique, ni un avis professionnel, ni une affiliation.</p><span class="footer-version">Source : V15.7.0 · 19.10.2026</span></footer>
+
+  <footer class="site-footer" role="contentinfo">
+    <p>Présentation éditoriale indépendante. Elle ne constitue ni une validation clinique, ni un avis professionnel, ni une affiliation.</p>
+    <p class="source-note">Sections sources : §1, §4, §6, §22 du document <code>keo-udvi-ebp.md</code>.</p>
+    <p><strong>Non affilié à Balise Psy.</strong></p>
+    <p>Source documentaire : V15.7.0 · 19.10.2026</p>
+  </footer>
 </body>
 </html>
