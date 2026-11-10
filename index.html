@@ -4,37 +4,36 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f9f8f6">
-  <meta name="description" content="Présentation accessible du cadre méthodologique KEO-UDVI-EBP : principes, fonctionnement et limites." />
-  <title>KEO-UDVI-EBP | Cadre méthodologique</title>
+  <meta name="description" content="KEO-UDVI-EBP : cadre méthodologique pour structurer des réponses claires, expliciter l’incertitude et garder la personne au centre.">
+  <title>KEO — La clarté, avec méthode</title>
   <link rel="icon" href="./assets/keo-emblem.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./styles.css">
+  <style>
+    /* Critical fallback styles: keep the page styled even if the external CSS is cached or unavailable. */
+    :root{--fallback-bg:#f9f8f6;--fallback-surface:#fff;--fallback-ink:#1c2224;--fallback-muted:#55605f;--fallback-teal:#2b6e6b;--fallback-border:#e2ded6}
+    body{margin:0;background:var(--fallback-bg);color:var(--fallback-ink);font:16px/1.65 Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
+    img,svg{max-width:100%;height:auto}.site-header{position:sticky;top:0;z-index:10;background:rgba(249,248,246,.96);border-bottom:1px solid var(--fallback-border)}
+    .header-inner{max-width:1100px;min-height:76px;margin:auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand,.nav-links{display:flex;align-items:center;gap:14px}.brand{color:var(--fallback-teal);font-weight:700;text-decoration:none}.brand small{display:block;font-size:10px;letter-spacing:.14em}.nav-links a{color:var(--fallback-muted);text-decoration:none;font-size:13px}.container{max-width:1100px;margin:auto;padding:0 24px}.hero{text-align:center;padding:80px 0 42px}.hero h1{font:400 clamp(38px,6vw,68px)/1.16 Merriweather,Georgia,serif;letter-spacing:-.04em;margin:15px auto;max-width:900px}.hero h1 em{color:var(--fallback-teal)}.hero-intro{max-width:700px;margin:20px auto;color:var(--fallback-muted);font-size:18px}.badge{display:inline-flex;gap:9px;align-items:center;padding:7px 14px;border-radius:20px;background:#e6efed;color:var(--fallback-teal);font-size:12px;font-weight:700}.status-dot{width:8px;height:8px;border-radius:50%;background:var(--fallback-teal)}.hero-actions{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin:25px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:12px 22px;min-height:46px;border-radius:99px;background:var(--fallback-teal);border:2px solid var(--fallback-teal);color:white;text-decoration:none;font-weight:650}.btn-secondary{background:transparent;color:var(--fallback-teal)}.note{color:var(--fallback-muted);font-size:13px}.visual-card,.animation-section,.principle-card,.resource-band{background:var(--fallback-surface);border:1px solid var(--fallback-border);border-radius:16px;box-shadow:0 10px 32px #1c22240c}.visual-card{max-width:520px;margin:20px auto 70px;padding:24px;display:grid;place-items:center;background:radial-gradient(circle,#edf4ef,#f9f8f6 70%)}.visual-card img{width:min(72%,300px)}.animation-caption{color:var(--fallback-teal);font-size:11px;font-weight:700;letter-spacing:.16em;margin-top:12px}.content-section{padding:60px 0;display:grid;grid-template-columns:170px 1fr;gap:12px 40px}.section-label{color:var(--fallback-teal);font-size:11px;font-weight:700;letter-spacing:.15em;text-transform:uppercase}.content-section h2,.process-section h2,.resource-band h2,.animation-section h2{font:400 clamp(27px,4vw,43px)/1.25 Merriweather,Georgia,serif;margin:0}.content-section h2 em,.process-section h2 em{color:var(--fallback-teal)}.section-intro{grid-column:2;color:var(--fallback-muted)}.principle-grid{grid-column:2;display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:20px}.principle-card{padding:22px}.principle-card h3{margin:12px 0 6px}.principle-card p{color:var(--fallback-muted);font-size:14px;margin:0}.card-index{color:#98703a;font-size:12px;font-weight:700;letter-spacing:.1em}.process-section{background:#e8f0eb;padding:65px 24px}.process-inner{max-width:1100px;margin:auto}.process-heading{display:flex;justify-content:space-between;gap:25px;align-items:end}.process-heading p{max-width:310px;color:#465756}.steps{list-style:none;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:20px;border-top:1px solid #b9c9c1;margin-top:30px}.steps li{padding-top:15px}.steps li>span{color:var(--fallback-teal);font-weight:700}.steps p{color:#465756;font-size:13px}.limits-section .limit-copy{grid-column:2}.limit-list{grid-column:2;list-style:none;padding:0}.limit-list li{padding:14px 0;border-bottom:1px solid var(--fallback-border)}.limit-list span{display:block;color:var(--fallback-muted);font-size:13px}.emergency-notice{grid-column:2;padding:16px;background:#fff7f0;color:#552b22;border-left:4px solid #a3543d;border-radius:8px}.animation-section{padding:28px;margin:40px auto 65px}.animation-section>p,.animation-section>h2{text-align:center}.animation-section figure{margin:22px 0 0}.animation-section img{width:100%;border-radius:12px;background:#132322}.animation-section figcaption{font-size:13px;color:var(--fallback-muted);margin-top:8px}.resource-band{margin:45px auto;padding:30px;display:grid;grid-template-columns:1fr auto;gap:12px 25px;background:linear-gradient(120deg,#eef3ee,#fff)}.resource-band .eyebrow,.resource-band h2,.resource-band p{grid-column:1}.resource-band .btn{grid-column:2;grid-row:1/5;align-self:center}.resource-band p{color:var(--fallback-muted)}.site-footer{border-top:1px solid var(--fallback-border);padding:24px;text-align:center;color:var(--fallback-muted);font-size:12px}.skip-link{position:absolute;left:-9999px}.skip-link:focus{left:10px;top:10px;background:var(--fallback-teal);color:white;padding:10px;z-index:20}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+    @media(max-width:760px){.header-inner{flex-wrap:wrap;padding:12px 18px}.nav-links{order:3;width:100%;justify-content:space-between;gap:8px}.nav-links a{font-size:11px}.content-section{grid-template-columns:1fr;gap:8px;padding:42px 0}.section-intro,.principle-grid,.limits-section .limit-copy,.limit-list,.emergency-notice{grid-column:1}.principle-grid{grid-template-columns:1fr}.process-heading{display:block}.steps{grid-template-columns:repeat(2,1fr)}.resource-band{grid-template-columns:1fr}.resource-band .btn{grid-column:1;grid-row:auto;justify-self:start}}
+    @media(max-width:480px){.container{padding:0 18px}.hero{padding-top:55px}.hero-intro{font-size:16px}.process-section{padding:45px 18px}.steps{grid-template-columns:1fr}.animation-section{padding:16px}.resource-band{padding:22px}.header-document{font-size:11px}}
+  </style>
 </head>
 <body>
   <a href="#main" class="skip-link">Aller au contenu</a>
-
   <header class="site-header" role="banner">
-    <a class="logo-area" href="#accueil" aria-label="KEO, accueil">
-      <img src="./assets/keo-emblem.svg" alt="" width="34" height="34" decoding="async">
-      <span>KEO <small>UDVI · EBP</small></span>
-    </a>
-    <nav class="nav-links" aria-label="Navigation principale">
-      <a href="#principes">Principes</a>
-      <a href="#fonctionnement">Fonctionnement</a>
-      <a href="#limites">Limites</a>
-      <a href="#ressources">Ressources</a>
-    </nav>
-    <a class="header-document" href="https://github.com/av974/Keo-udvi-ebp/blob/main/keo-udvi-ebp.md">Lire le document <span aria-hidden="true">↗</span></a>
+    <div class="header-inner">
+      <a class="brand" href="#accueil" aria-label="KEO, accueil"><img src="./assets/keo-emblem.svg" alt="" width="34" height="34" decoding="async"><span>KEO <small>UDVI · EBP</small></span></a>
+      <nav class="nav-links" aria-label="Navigation principale"><a href="#principes">Principes</a><a href="#fonctionnement">Fonctionnement</a><a href="#animation">Visuels</a><a href="#limites">Limites</a><a href="#ressources">Ressources</a></nav>
+    </div>
   </header>
-
   <main id="main" class="container">
     <section class="hero" id="accueil" aria-labelledby="page-title">
       <div class="badge"><span class="status-dot" aria-hidden="true"></span> Cadre méthodologique · V15.7.0</div>
       <h1 id="page-title">Des réponses plus <em>claires</em>.<br>Des limites plus <em>visibles</em>.</h1>
       <p class="hero-intro">KEO-UDVI-EBP est un cadre de prompts qui aide à structurer les réponses, expliciter les incertitudes et garder la personne au centre.</p>
-      <div class="hero-actions">
-        <a href="#principes" class="btn">Découvrir le cadre <span aria-hidden="true">↓</span></a>
-        <a href="#animation" class="btn btn-secondary">Voir l’animation <span aria-hidden="true">↗</span></a>
-      </div>
+      <div class="hero-actions"><a href="#principes" class="btn">Découvrir le cadre <span aria-hidden="true">↓</span></a><a href="./media/" class="btn btn-secondary">Voir le studio média <span aria-hidden="true">↗</span></a></div>
       <p class="note">Un cadre de travail, pas une certification ni un service d’urgence.</p>
     </section>
 
@@ -48,59 +47,35 @@
       <h2 id="principes-title">Une méthode pour mieux répondre.<br><em>Pas pour prétendre tout savoir.</em></h2>
       <p class="section-intro">Le document KEO décrit une démarche adaptable : comprendre la demande, repérer les enjeux, utiliser les outils réellement accessibles, produire une réponse utile puis en vérifier les limites.</p>
       <div class="principle-grid">
-        <article class="principle-card"><span class="card-index">A</span><h3>Respecter</h3><p>Dignité, autonomie, consentement et accessibilité guident la manière de répondre.</p></article>
-        <article class="principle-card"><span class="card-index">B</span><h3>Distinguer</h3><p>Un fait observé, une interprétation, une hypothèse et une information inconnue ne sont pas interchangeables.</p></article>
-        <article class="principle-card"><span class="card-index">C</span><h3>Rendre visible</h3><p>Un outil est déclaré utilisé seulement si son appel et son résultat sont observables.</p></article>
+        <article class="principle-card"><span class="card-index">A · ÉCOUTE</span><div class="icon-wrap" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 64 64" fill="none"><path d="M16 34v-5a16 16 0 0 1 32 0v5"/><rect x="12" y="32" width="9" height="17" rx="4.5"/><rect x="43" y="32" width="9" height="17" rx="4.5"/><path d="M48 48c0 6-5 9-13 9h-5"/></svg></div><h3>Écouter</h3><p>Comprendre la demande sans préjuger de la personne.</p></article>
+        <article class="principle-card"><span class="card-index">B · VÉRIFICATION</span><div class="icon-wrap" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 64 64" fill="none"><circle cx="27" cy="27" r="17"/><path d="m40 40 13 13M20 27l5 5 10-11"/></svg></div><h3>Vérifier</h3><p>Distinguer les faits des interprétations et des inconnues.</p></article>
+        <article class="principle-card"><span class="card-index">C · SYNTHÈSE</span><div class="icon-wrap" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="9"/><circle cx="12" cy="16" r="5"/><circle cx="52" cy="16" r="5"/><circle cx="12" cy="48" r="5"/><circle cx="52" cy="48" r="5"/><path d="m16 19 10 8m22-8L38 27M16 45l10-8m22 8L38 37"/></svg></div><h3>Synthétiser</h3><p>Produire une réponse claire et structurée, avec ses limites visibles.</p></article>
       </div>
     </section>
 
     <section id="fonctionnement" class="process-section" data-keo-section="§4" aria-labelledby="process-title">
-      <div class="process-inner">
-        <p class="section-label">02 / Le fil de réponse</p>
-        <h2 id="process-title">Du besoin au livrable,<br><em>avec des garde-fous.</em></h2>
-        <p class="section-intro">Le moteur décrit dans le document suit un parcours simple, réévalué à chaque demande.</p>
-        <ol class="steps">
-          <li><span>01</span><h3>Comprendre</h3><p>Demande, contexte, destinataire et format souhaité.</p></li>
-          <li><span>02</span><h3>Qualifier</h3><p>Enjeux, informations manquantes et niveau de prudence utile.</p></li>
-          <li><span>03</span><h3>Produire</h3><p>Réponse adaptée, sans inventer de faits ni d’actions externes.</p></li>
-          <li><span>04</span><h3>Contrôler</h3><p>Cohérence, sécurité, provenance et limites décisives.</p></li>
-        </ol>
+      <div class="process-inner"><p class="section-label">02 / Le fil de réponse</p><h2 id="process-title">Du besoin au livrable,<br><em>avec des garde-fous.</em></h2><p class="section-intro">Le moteur décrit dans le document suit un parcours simple, réévalué à chaque demande.</p>
+        <ol class="steps"><li><span>01</span><h3>Comprendre</h3><p>Demande, contexte, destinataire et format souhaité.</p></li><li><span>02</span><h3>Qualifier</h3><p>Enjeux, informations manquantes et niveau de prudence utile.</p></li><li><span>03</span><h3>Produire</h3><p>Réponse adaptée, sans inventer de faits ni d’actions externes.</p></li><li><span>04</span><h3>Contrôler</h3><p>Cohérence, sécurité, provenance et limites décisives.</p></li></ol>
       </div>
     </section>
 
     <section id="limites" class="content-section limits-section" data-keo-section="§6" aria-labelledby="limits-title">
       <p class="section-label">03 / À garder en tête</p>
       <div class="limit-copy"><p class="eyebrow">Transparence avant tout</p><h2 id="limits-title">Un prompt ne crée pas de capacités cachées.</h2><p>KEO ne crée ni mémoire persistante, ni surveillance, ni second modèle, ni connexion à des services externes. Le cadre s’applique uniquement dans le contexte où son texte est effectivement fourni.</p></div>
-      <ul class="limit-list">
-        <li><strong>Pas un professionnel de santé</strong><span>Ce site ne fournit ni diagnostic ni prescription. Il ne remplace pas un professionnel.</span></li>
-        <li><strong>Pas une validation indépendante</strong><span>Les déclarations du document sur des revues ou tests ne sont pas vérifiées par ce site.</span></li>
-        <li><strong>Non affilié à Balise Psy</strong><span>Cette présentation n’établit ni approbation ni partenariat avec Balise Psy.</span></li>
-      </ul>
+      <ul class="limit-list"><li><strong>Pas un professionnel de santé</strong><span>Ce site ne fournit ni diagnostic ni prescription. Il ne remplace pas un professionnel.</span></li><li><strong>Pas une validation indépendante</strong><span>Les déclarations du document sur des revues ou tests ne sont pas vérifiées par ce site.</span></li><li><strong>Non affilié à Balise Psy</strong><span>Cette présentation n’établit ni approbation ni partenariat avec Balise Psy.</span></li></ul>
       <p class="emergency-notice"><strong>En cas de danger immédiat, contactez les secours de votre territoire.</strong></p>
     </section>
 
     <section id="animation" class="animation-section" aria-labelledby="animation-title">
-      <p class="eyebrow">Illustration animée</p>
-      <h2 id="animation-title">Écouter, vérifier, synthétiser</h2>
-      <figure>
-        <img src="./media/keo-motion.svg" alt="Animation de trois anneaux colorés autour d’un centre lumineux, illustrant les repères écouter, vérifier et synthétiser." width="960" height="540" loading="lazy" decoding="async">
-        <figcaption>Animation vectorielle SVG. Les mouvements s’arrêtent lorsque la préférence de réduction des mouvements est activée. Ce n’est pas un fichier vidéo MP4 ou WebM.</figcaption>
-      </figure>
+      <p class="eyebrow">Animation KEO · fichier SVG</p><h2 id="animation-title">Écouter · Vérifier · Synthétiser</h2>
+      <figure><img src="./media/keo-motion.svg" alt="Animation de trois anneaux colorés autour d’un centre lumineux, illustrant les repères écouter, vérifier et synthétiser." width="960" height="540" loading="lazy" decoding="async"><figcaption>Animation vectorielle SVG intégrée depuis le dossier media. Les mouvements s’arrêtent si la préférence système de réduction des mouvements est activée.</figcaption></figure>
+      <p><a href="./media/">Voir l’animation en plein écran ↗</a></p>
     </section>
 
     <section id="ressources" class="resource-band" data-keo-section="§22" aria-labelledby="resource-title">
-      <p class="eyebrow">Explorer la source</p>
-      <h2 id="resource-title">Le document complet,<br>sans raccourci.</h2>
-      <p>Consultez le cadre canonique et ses sections pour retrouver les détails, les routines et les conventions documentaires.</p>
-      <a class="btn" href="https://github.com/av974/Keo-udvi-ebp/blob/main/keo-udvi-ebp.md">Ouvrir sur GitHub <span aria-hidden="true">↗</span></a>
+      <p class="eyebrow">Explorer la source</p><h2 id="resource-title">Le document complet,<br>sans raccourci.</h2><p>Consultez le cadre canonique et ses sections pour retrouver les détails, les routines et les conventions documentaires.</p><a class="btn" href="https://github.com/av974/Keo-udvi-ebp/blob/main/keo-udvi-ebp.md">Ouvrir sur GitHub <span aria-hidden="true">↗</span></a>
     </section>
   </main>
-
-  <footer class="site-footer" role="contentinfo">
-    <p>Présentation éditoriale indépendante. Elle ne constitue ni une validation clinique, ni un avis professionnel, ni une affiliation.</p>
-    <p class="source-note">Sections sources : §1, §4, §6, §22 du document <code>keo-udvi-ebp.md</code>.</p>
-    <p><strong>Non affilié à Balise Psy.</strong></p>
-    <p>Source documentaire : V15.7.0 · 19.10.2026</p>
-  </footer>
+  <footer class="site-footer" role="contentinfo"><p>Présentation éditoriale indépendante. Elle ne constitue ni une validation clinique, ni un avis professionnel, ni une affiliation.</p><p class="source-note">Sections sources : §1, §4, §6, §22 du document <code>keo-udvi-ebp.md</code>.</p><p><strong>Non affilié à Balise Psy.</strong></p><p>Source documentaire : V15.7.0 · 19.10.2026</p></footer>
 </body>
 </html>
